@@ -6,7 +6,7 @@ frond end
 Back-end
 - PHP
 - MySql
-- Cms
+- .NET
 
 Extra
 - GitHub 
