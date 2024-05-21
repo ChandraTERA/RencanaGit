@@ -1,4 +1,4 @@
-bahasa pemrograman web
+frond end
 - HTML
 - CSS
 - JavaScript
