@@ -3,6 +3,11 @@ bahasa pemrograman web
 - CSS
 - JavaScript
 
+Back-end
+- PHP
+- MySql
+- .NET
+
 Extra
 - GitHub 
 - Gitbash 
