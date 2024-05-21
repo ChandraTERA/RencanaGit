@@ -1,7 +1,12 @@
-bahasa pemrograman web
+frond end
 - HTML
 - CSS
 - JavaScript
+
+Back-end
+- PHP
+- MySql
+- Cms
 
 Extra
 - GitHub 
