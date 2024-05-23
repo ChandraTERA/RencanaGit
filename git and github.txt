@@ -1,13 +1,15 @@
-saya suka
-- HTML
-- CSS
-- JavaScript
+- git init
+Perintah ini digunakan untuk menginisialisasi repository Git baru di direktori saat ini. 
+Ini akan membuat subdirektori .git yang berisi semua file yang diperlukan oleh Git untuk melacak perubahan pada proyek.
 
-Back-end
-- PHP
-- MySql
-- .NET
 
-Extra
-- GitHub 
-- Gitbash 
+
+
+-git clone
+Digunakan untuk membuat salinan (clone) dari repository yang sudah ada. 
+Biasanya digunakan untuk menduplikasi proyek dari server jauh (remote) seperti GitHub.
+
+
+- git status
+Perintah ini menampilkan status dari working directory dan staging area. Ini menunjukkan file mana yang telah diubah, 
+file mana yang dalam staged, dan file mana yang tidak dilacak oleh Git.
