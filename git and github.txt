@@ -5,12 +5,38 @@ Ini akan membuat subdirektori .git yang berisi semua file yang diperlukan oleh G
 
 
 
--git clone
+-git clone 
 Digunakan untuk membuat salinan (clone) dari repository yang sudah ada. 
 Biasanya digunakan untuk menduplikasi proyek dari server jauh (remote) seperti GitHub.
 
+git clone <url>
 
 - git status
 Perintah ini menampilkan status dari working directory dan staging area. Ini menunjukkan file mana yang telah diubah, 
 file mana yang dalam staged, dan file mana yang tidak dilacak oleh Git.
 
+git touch 
+Perintah ini merupakahan perintah menambahkan file baru pada direktori. dengan menggunakan  touch 'index.html' maka dengan sendirinya file
+tersebyt ada atau terbuat.
+
+git add
+Digunakan untuk menambahkan file atau perubahan pada file ke staging area. Perintah ini diperlukan sebelum melakukan commit perubahan.
+
+
+git add <nama-file>
+
+untuk menambahkan semua file yang berubah 
+
+git add .
+
+
+git commit
+Menyimpan snapshot dari staging area ke dalam repository. Perintah ini sering digunakan dengan opsi -m untuk menambahkan pesan commit.
+
+
+git commit -m "pesan commit"
+
+git push
+Mengunggah perubahan lokal ke repository remote, seperti GitHub. Perintah ini mengirimkan commit dari branch lokal ke branch yang sesuai di remote repository.
+
+git push origin <nama-branch>
