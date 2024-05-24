@@ -13,3 +13,4 @@ Biasanya digunakan untuk menduplikasi proyek dari server jauh (remote) seperti G
 - git status
 Perintah ini menampilkan status dari working directory dan staging area. Ini menunjukkan file mana yang telah diubah, 
 file mana yang dalam staged, dan file mana yang tidak dilacak oleh Git.
+
