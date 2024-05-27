@@ -15,11 +15,11 @@ git clone <url>
 Perintah ini menampilkan status dari working directory dan staging area. Ini menunjukkan file mana yang telah diubah, 
 file mana yang dalam staged, dan file mana yang tidak dilacak oleh Git.
 
-git touch 
+- touch 
 Perintah ini merupakahan perintah menambahkan file baru pada direktori. dengan menggunakan  touch 'index.html' maka dengan sendirinya file
 tersebyt ada atau terbuat.
 
-git add
+- git add
 Digunakan untuk menambahkan file atau perubahan pada file ke staging area. Perintah ini diperlukan sebelum melakukan commit perubahan.
 
 
@@ -29,14 +29,25 @@ untuk menambahkan semua file yang berubah
 
 git add .
 
+git add 'musik.html' 'tesla.js' 
 
-git commit
+
+- git commit
 Menyimpan snapshot dari staging area ke dalam repository. Perintah ini sering digunakan dengan opsi -m untuk menambahkan pesan commit.
 
 
 git commit -m "pesan commit"
 
-git push
+-git push 
 Mengunggah perubahan lokal ke repository remote, seperti GitHub. Perintah ini mengirimkan commit dari branch lokal ke branch yang sesuai di remote repository.
 
 git push origin <nama-branch>
+
+- git push
+Mengunggah perubahan lokal ke repository remote, seperti GitHub. Perintah ini mengirimkan commit dari branch lokal ke branch yang sesuai di remote repository.
+
+
+- git pull
+Mengambil perubahan terbaru dari repository remote dan menggabungkannya dengan branch lokal Anda. Ini adalah kombinasi dari git fetch dan git merge.
+
+- git pull origin <nama-branch>
