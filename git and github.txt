@@ -2,9 +2,6 @@
 Perintah ini digunakan untuk menginisialisasi repository Git baru di direktori saat ini. 
 Ini akan membuat subdirektori .git yang berisi semua file yang diperlukan oleh Git untuk melacak perubahan pada proyek.
 
-
-
-
 -git clone 
 Digunakan untuk membuat salinan (clone) dari repository yang sudah ada. 
 Biasanya digunakan untuk menduplikasi proyek dari server jauh (remote) seperti GitHub.
