@@ -1,50 +1,109 @@
-- git init
-Perintah ini digunakan untuk menginisialisasi repository Git baru di direktori saat ini. 
-Ini akan membuat subdirektori .git yang berisi semua file yang diperlukan oleh Git untuk melacak perubahan pada proyek.
+1.  git init
+    Perintah ini digunakan untuk menginisialisasi repository Git baru di direktori saat ini. 
+    Ini akan membuat subdirektori .git yang berisi semua file yang diperlukan oleh Git untuk melacak perubahan pada proyek.
 
--git clone 
-Digunakan untuk membuat salinan (clone) dari repository yang sudah ada. 
-Biasanya digunakan untuk menduplikasi proyek dari server jauh (remote) seperti GitHub.
+2.  git clone 
+    Digunakan untuk membuat salinan (clone) dari repository yang sudah ada. 
+    Biasanya digunakan untuk menduplikasi proyek dari server jauh (remote) seperti GitHub.
 
-git clone <url>
+3.  git clone <url>
 
-- git status
-Perintah ini menampilkan status dari working directory dan staging area. Ini menunjukkan file mana yang telah diubah, 
-file mana yang dalam staged, dan file mana yang tidak dilacak oleh Git.
+4.  git status
+    Perintah ini menampilkan status dari working directory dan staging area. Ini menunjukkan file mana yang telah diubah, 
+    file mana yang dalam staged, dan file mana yang tidak dilacak oleh Git.
 
-- touch <nama file>
-Perintah ini merupakahan perintah menambahkan file baru pada direktori. dengan menggunakan  touch 'index.html' maka dengan sendirinya file
-tersebyt ada atau terbuat.
+5.  touch <nama file>
+    Perintah ini merupakahan perintah menambahkan file baru pada direktori. dengan menggunakan  touch 'index.html' maka dengan sendirinya file
+    tersebyt ada atau terbuat.
 
-- git add
-Digunakan untuk menambahkan file atau perubahan pada file ke staging area. Perintah ini diperlukan sebelum melakukan commit perubahan.
-
-
-git add <nama-file>
-
-untuk menambahkan semua file yang berubah 
-
-git add .
-
-git add 'musik.html' 'tesla.js'  > sebagai salah satunya
+6.  git add
+    Digunakan untuk menambahkan file atau perubahan pada file ke staging area. Perintah ini diperlukan sebelum melakukan commit perubahan.
 
 
-- git commit
-Menyimpan snapshot dari staging area ke dalam repository. Perintah ini sering digunakan dengan opsi -m untuk menambahkan pesan commit.
+    - git add <nama-file>
+
+      untuk menambahkan semua file yang berubah 
+
+    - git add .
+
+      git add 'musik.html' 'tesla.js'  > sebagai salah satunya
 
 
-git commit -m "pesan commit"
+7.  git commit
+    Menyimpan snapshot dari staging area ke dalam repository. Perintah ini sering digunakan dengan opsi -m untuk menambahkan pesan commit.
 
-- git push 
-  Mengunggah perubahan lokal ke repository remote, seperti GitHub. Perintah ini mengirimkan commit dari branch lokal ke branch yang sesuai di remote repository.
+    git commit -m "pesan commit"
 
-  git push origin <nama-branch>
+8.  git push 
+    Mengunggah perubahan lokal ke repository remote, seperti GitHub. Perintah ini mengirimkan commit dari branch lokal ke branch yang sesuai di remote repository.
 
-- git push
-  Mengunggah perubahan lokal ke repository remote, seperti GitHub. Perintah ini mengirimkan commit dari branch lokal ke branch yang sesuai di remote repository.
+    git push origin <nama-branch>
+
+    - git push
+      Mengunggah perubahan lokal ke repository remote, seperti GitHub. Perintah ini mengirimkan commit dari branch lokal ke branch yang sesuai di remote repository.
 
 
-- git pull
-Mengambil perubahan terbaru dari repository remote dan menggabungkannya dengan branch lokal Anda. Ini adalah kombinasi dari git fetch dan git merge.
 
-- git pull origin <nama-branch>
+
+9.  git branch
+      Digunakan untuk membuat, mendaftar, dan menghapus branch. Misalnya, untuk membuat branch baru:
+
+      git branch <nama-branch-baru>
+      Untuk melihat daftar semua branch:
+
+    - git branch -d <nama-branch>
+      Untuk menghapus nama branch yang di tujuh
+
+11. git checkout
+      Digunakan untuk berpindah antara branch atau commit yang berbeda. Misalnya, untuk berpindah ke branch yang berbeda:
+
+    git checkout <nama-branch>
+
+      Untuk membuat dan berpindah ke branch baru:
+    - git checkout -b <nama-branch-baru>
+
+12. git log
+    Menampilkan riwayat commit dari repository saat ini. Ini menunjukkan commit ID, penulis, tanggal, dan pesan commit. git log
+
+    - git log --oneline
+      Tujuan utama dari perintah ini adalah untuk mencetak satu komit dalam satu baris sebagai output ketika perintah git log dijalankan menggunakan opsi ini. 
+  
+    - git log --pretty = oneline
+      empat puluh digit nomor SHA dan pesan komit.
+
+    - git log --graph --pretty="%C(green) Hash: %h %C(red)Date: %ad %C(yellow) Message: %s " --date=human
+      Pada kode di atas, kita dapat melihat bahwa dengan menggunakan %c sebagai parameter kita dapat mengatur kode warna keluaran. Misalnya kita telah mewarnai hash commit dengan warna hijau, tanggal dengan warna merah, dan pesan dengan warna kuning.
+
+13. git reset
+    Mengatur ulang pointer ke commit tertentu. Ini bisa digunakan untuk membatalkan perubahan yang sudah di-commit.
+    Untuk mengatur ulang pointer dan menghapus perubahan yang ada di staging area:
+
+    - git reset <commit>
+
+
+14. git merge
+    Menggabungkan branch terpisah ke dalam branch saat ini. Setelah melakukan git fetch, Anda dapat menggunakan git merge untuk menggabungkan perubahan remote ke branch lokal.
+
+    git merge <nama-branch>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
