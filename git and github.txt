@@ -34,6 +34,10 @@
 
     git commit -m "pesan commit"
 
+    - mengubah isi dari file yang sudah di-commit tanpa mengubah pesan commit yang sudah ada
+      git commit --amend --no-edit
+
+
 8.  git push 
     Mengunggah perubahan lokal ke repository remote, seperti GitHub. Perintah ini mengirimkan commit dari branch lokal ke branch yang sesuai di remote repository.
 
