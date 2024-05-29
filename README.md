@@ -13,4 +13,11 @@ Kriteria-kriteria tersebut tidak dipenuhi oleh semua sistem kendali versi yang t
 
 Pengembangan Git dimulai pada 3 April 2005.[15] Torvalds mengumumkan proyeknya pada 6 April dan Git mampu melakukan self-hosting pada keesokan harinya.[15][16] Penggabungan (merge) beberapa cabang pertama kali dilakukan pada 18 April.[17] Torvalds mencapai sasaran performanya; pada 29 April, Git sudah tercatat mengirim tambalan ke pohon kernel Linux dengan kecepatan 6,7 tambalan per detik.[18] Pada 16 Juni, Git mengurus rilis 2.6.12 kernel Linux.[19]
 
-Torvalds menyerahkan pemeliharaan pada 26 Juli 2005 kepada Junio Hamano, seorang kontributor besar dalam proyek.[20] Hamano bertanggung jawab atas rilis 1.0 pada 21 Desember 2005 dan terus menjadi pemelihara utama proyek.[21]
+Torvalds menyerahkan pemeliharaan pada 26 Juli 2005 kepada Junio Hamano, seorang kontributor besar dalam proyek.[20] Hamano bertanggung jawab atas rilis 1.0 pada 21 Desember 2005 dan terus menjadi pemelihara utama proyek.[21]  
+
+
+
+
+
+
+
