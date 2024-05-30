@@ -89,8 +89,10 @@
     Menggabungkan branch terpisah ke dalam branch saat ini. Setelah melakukan git fetch, Anda dapat menggunakan git merge untuk menggabungkan perubahan remote ke branch lokal.
 
     git merge <nama-branch>
+    - dengan menggunakan abort dapat membatalkan perintah untuk merge atau menggabungkan branch
+      git merge --abort
 
-
+15. 
 
 
 
