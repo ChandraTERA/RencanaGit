@@ -93,9 +93,7 @@
       git merge --abort
 
 
-15. Git Conflict 
-
-    - Membuat konflik merge di Git bisa menjadi cara yang baik untuk memahami  bagaimana Git menangani konflik dan bagaimana Anda dapat menyelesaikannya
+15. Git Merge Conflict
 
 
 
