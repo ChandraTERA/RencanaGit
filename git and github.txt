@@ -95,8 +95,7 @@
 
 15. Git Conflict 
 
-    - Membuat konflik merge di Git bisa menjadi cara yang baik untuk memahami 
-    bagaimana Git menangani konflik dan bagaimana Anda dapat menyelesaikannya
+    - Membuat konflik merge di Git bisa menjadi cara yang baik untuk memahami  bagaimana Git menangani konflik dan bagaimana Anda dapat menyelesaikannya
 
 
 
