@@ -92,7 +92,13 @@
     - dengan menggunakan abort dapat membatalkan perintah untuk merge atau menggabungkan branch
       git merge --abort
 
+
 15. 
+
+
+
+
+
 
 
 
