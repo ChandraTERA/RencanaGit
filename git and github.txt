@@ -93,15 +93,10 @@
       git merge --abort
 
 
-15. 
+15. Git Conflict 
 
-
-
-
-    - Jika ingin membatalkan merge cukup menggunakan  
-      git merge --abort
-
-15. git corp
+    - Membuat konflik merge di Git bisa menjadi cara yang baik untuk memahami 
+    bagaimana Git menangani konflik dan bagaimana Anda dapat menyelesaikannya
 
 
 
