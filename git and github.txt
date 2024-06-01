@@ -98,6 +98,11 @@
 
 
 
+    - Jika ingin membatalkan merge cukup menggunakan  
+      git merge --abort
+
+15. git corp
+
 
 
 
