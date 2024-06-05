@@ -95,7 +95,8 @@
 
 15. Git Merge Conflict
 
-16. Git Remote 
+16. Git Remote --list
+    Untuk melihat list mengenai github
 
 
 
